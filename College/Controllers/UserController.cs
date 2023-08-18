@@ -12,5 +12,17 @@ namespace College.Controllers
         {
             return View(); 
         }
+        public ActionResult Pricing()
+        {
+            return View();
+        }
+        public ActionResult Contact()
+        {
+            return View();
+        }
+        public ActionResult Admission()
+        {
+            return View();
+        }
     }
 }

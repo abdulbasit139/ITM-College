@@ -1,0 +1,54 @@
+﻿<section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="row mt-5 mb-5 justify-content-center">
+            <div class="col-lg-8 mt-5 ">
+
+                <h3 class="text-center mt-5 mb-3">Admission Form</h3>
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" class="form-control" name="fullName" placeholder="Full Name" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input type="text" class="form-control" name="fatherName" placeholder="Father Name" required>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="date" class="form-control" name="dob" placeholder="Date Of Birth" required>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="address" placeholder="Address" required>
+                    </div>
+                    <div class="form-group mt-3">
+                        <select class="form-control" name="gender" required>
+                            <option disabled>Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>    
+                    <div class="form-group mt-3">
+                        <select class="form-control" name="subject" required>
+                            <option disabled>Subject</option>
+                            <option value="engineering">Pre Engineering</option>
+                            <option value="medical">Pre Medical</option>
+                            <option value="ics">ICS</option>
+                            <option value="icom">ICOM</option>
+                            <option value="fa">FA</option>
+                        </select>
+                    </div>
+
+                    <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Register</button></div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
