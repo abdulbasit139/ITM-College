@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using College.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace College.Controllers
 {
     public class UserController : Controller
     {
+        // View Actions
         public IActionResult Index()
         {
             return View();
@@ -24,5 +26,24 @@ namespace College.Controllers
         {
             return View();
         }
+
+        // Functions
+        CollegeDbContext db;
+        public UserController(CollegeDbContext db)
+        {
+            this.db = db;
+        }
+
+        [HttpPost]
+        public ActionResult Admission(CollegeRegistrations reg)
+        {
+            db.CollegeRegistrations.Add(reg);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+
+        
+
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QUMzuI0v+XZL7zGs5jMIVidDY2UTxzYYIYaZw399gdI=",
+  "Hash": "SR7fjW4pilARK7FXp1y55xQPuM0dxGbwjIEu3U44af4=",
   "Source": "College",
   "BasePath": "_content/College",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\arrow-down.png",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "assets/img/arrow-down.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\arrow-down.png"
     },
     {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\banner.jpg",

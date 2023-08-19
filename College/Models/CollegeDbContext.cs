@@ -6,9 +6,9 @@ namespace College.Models
     {
         public CollegeDbContext(DbContextOptions options) : base(options) 
         { 
-        
+            
         }
-
+        public DbSet<CollegeRegistrations> CollegeRegistrations { get; set; }
 
     }
 }
