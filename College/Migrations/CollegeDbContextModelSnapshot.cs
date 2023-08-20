@@ -21,7 +21,32 @@ namespace College.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("College.Models.CollegeRegistrations", b =>
+            modelBuilder.Entity("College.Models.admin", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("admins");
+                });
+
+            modelBuilder.Entity("College.Models.CollegeRegistration", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -63,7 +88,7 @@ namespace College.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("CollegeRegistrations");
+                    b.ToTable("CollegeRegistration");
                 });
 #pragma warning restore 612, 618
         }

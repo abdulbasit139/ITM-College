@@ -8,7 +8,9 @@ namespace College.Models
         { 
             
         }
-        public DbSet<CollegeRegistrations> CollegeRegistrations { get; set; }
+        public DbSet<CollegeRegistration> CollegeRegistration { get; set; }
+
+        public DbSet<admin> admins { get; set; }
 
     }
 }

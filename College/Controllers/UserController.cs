@@ -35,9 +35,9 @@ namespace College.Controllers
         }
 
         [HttpPost]
-        public ActionResult Admission(CollegeRegistrations reg)
+        public ActionResult Admission(CollegeRegistration reg)
         {
-            db.CollegeRegistrations.Add(reg);
+            db.CollegeRegistration.Add(reg);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

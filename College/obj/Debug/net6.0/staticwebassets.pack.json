@@ -441,16 +441,332 @@
       "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\css\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\documentation\\.DS_Store",
+      "PackagePath": "staticwebassets\\documentation\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\documentation\\documentation.html",
+      "PackagePath": "staticwebassets\\documentation\\documentation.html"
     },
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\dashboard\\shape-1.svg",
+      "PackagePath": "staticwebassets\\images\\dashboard\\shape-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\dashboard\\shape-2.svg",
+      "PackagePath": "staticwebassets\\images\\dashboard\\shape-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\dashboard\\shape-3.svg",
+      "PackagePath": "staticwebassets\\images\\dashboard\\shape-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\dashboard\\shape-4.svg",
+      "PackagePath": "staticwebassets\\images\\dashboard\\shape-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face28.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\template.js",
+      "PackagePath": "staticwebassets\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\js\\todolist.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\js\\tooltips.js",
+      "PackagePath": "staticwebassets\\js\\tooltips.js"
     },
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -679,6 +995,206 @@
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\partials\\.DS_Store",
+      "PackagePath": "staticwebassets\\partials\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\.DS_Store",
+      "PackagePath": "staticwebassets\\scss\\components\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\components\\_todo-list.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_todo-list.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\scss\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\ti-icons\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\vendors\\ti-icons\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\ti-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\vendors\\ti-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\ti-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\vendors\\ti-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\ti-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\vendors\\ti-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\ti-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\vendors\\ti-icons\\fonts\\themify.woff"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.College.Microsoft.AspNetCore.StaticWebAssets.props",
