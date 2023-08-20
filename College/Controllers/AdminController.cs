@@ -1,5 +1,6 @@
 ﻿using College.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace College.Controllers
 {
@@ -17,19 +18,32 @@ namespace College.Controllers
         }
 
         [HttpPost]
-        public IActionResult CheckLogin(string email, string pass)
+        public IActionResult CheckLogin(string email, string password)
         {
-            int matchingUsersCount = db.admins.Count(a => a.email == email && a.password == pass);
-            if (matchingUsersCount == 1)
+            var admin = db.admins.FirstOrDefault(a => a.email == email && a.password == password);
+
+            if (admin != null)
             {
+                HttpContext.Session.SetString("AdminEmail", email);
+                HttpContext.Session.SetInt32("AdminId", admin.Id);
                 return RedirectToAction("Dashboard");
             }
+            ViewBag.ErrorMessage = "Invalid email or password.";
             return RedirectToAction("login");
-            
+
         }
         public IActionResult Dashboard()
         {
-            return View();
+            if (HttpContext.Session.GetString("AdminEmail") != null)
+            {
+                // Admin session is active, allow access to dashboard
+                return View();
+            }
+            else
+            {
+                // Admin session is not active, redirect to login page
+                return RedirectToAction("Login");
+            }
         }
 
         

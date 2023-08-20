@@ -1,17 +1,31 @@
 using College.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Session configuration
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.Cookie.Name = "Admin";
+    options.IdleTimeout = TimeSpan.FromMinutes(30); 
+    options.Cookie.IsEssential = true; 
+});
+
 builder.Services.AddDbContext<CollegeDbContext>(
     options => options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultString")
     )
 );
+
 var app = builder.Build();
+
+
 
 
 // Configure the HTTP request pipeline.
@@ -25,6 +39,9 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+// Session middleware
+app.UseSession();
+
 app.UseRouting();
 
 app.UseAuthorization();
@@ -35,7 +52,7 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "admin",
-    pattern: "{controller=Admin}/{action=login}/{id?}");
+    pattern: "{controller=Admin}/{action=Dashboard}/{id?}");
 
 
 app.Run();
