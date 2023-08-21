@@ -43,13 +43,19 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: black;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
 }
-
+.row.counters {
+  justify-content: center;
+}
+.row.counters .col-lg-3.col-6.text-center {
+  background: white;
+  margin: 10px;
+}
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -57,7 +63,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #7ed899;
+  background: black;
   color: #fff;
 }
 
@@ -136,7 +142,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #5fcf80;
+  color: black;
   font-size: 24px;
 }
 
@@ -193,16 +199,15 @@ h6 {
   position: relative;
 }
 
-.navbar a,
-.navbar a:focus {
+.navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 25px;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  color: #37423b;
+  color: #37423bd9;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -218,7 +223,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #5fcf80;
+  color: black;
 }
 
 .navbar .dropdown ul {
@@ -458,8 +463,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #5fcf80;
-  border: 2px solid #5fcf80;
+  background: black;
+  border: 2px solid black;
 }
 
 @media (min-width: 1024px) {
@@ -575,7 +580,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5fcf80;
+  color: black;
 }
 
 .about .content .learn-more-btn {
@@ -611,7 +616,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #5fcf80;
+  color: black;
   font-weight: 700;
 }
 
@@ -629,7 +634,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #5fcf80;
+  background: black;
   border-radius: 4px;
   color: #fff;
 }
@@ -664,21 +669,19 @@ section {
 
 .why-us .icon-boxes .icon-box {
   text-align: center;
-  background: #fff;
+  background: #8b7c7c1f;
   padding: 40px 30px;
   width: 100%;
   border: 1px solid #eef0ef;
 }
-
 .why-us .icon-boxes .icon-box i {
-  font-size: 32px;
-  padding: 18px;
-  color: #5fcf80;
-  margin-bottom: 30px;
-  background: #ecf9f0;
-  border-radius: 50px;
+    font-size: 32px;
+    padding: 18px;
+    color: white;
+    margin-bottom: 30px;
+    background: black;
+    border-radius: 50px;
 }
-
 .why-us .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
@@ -765,7 +768,7 @@ section {
 
 .courses .course-content h4 {
   font-size: 14px;
-  background: #5fcf80;
+  background: black;
   padding: 7px 14px;
   color: #fff;
   margin: 0;
@@ -811,11 +814,13 @@ section {
 }
 
 .trainers .member img {
-  margin: -1px -1px 30px -1px;
+  margin: -1px -1px 0px -1px;
 }
 
 .trainers .member .member-content {
-  padding: 0 20px 30px 20px;
+  padding: 30px 20px 30px 20px;
+  background: black;
+  color: white;
 }
 
 .trainers .member h4 {
@@ -834,7 +839,7 @@ section {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: #aaaaaa;
+  color: white;
 }
 
 .trainers .member .social {
@@ -842,12 +847,12 @@ section {
 }
 
 .trainers .member .social a {
-  color: #7e9486;
+  color: white ;
   transition: 0.3s;
 }
 
 .trainers .member .social a:hover {
-  color: #5fcf80;
+  color: white;
 }
 
 .trainers .member .social i {
@@ -1460,7 +1465,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5fcf80;
+  color: black;
   font-size: 18px;
   line-height: 1;
 }
@@ -1524,7 +1529,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #5fcf80;
+  background: black;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1552,7 +1557,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: black;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
