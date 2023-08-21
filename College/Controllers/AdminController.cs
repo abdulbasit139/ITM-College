@@ -26,6 +26,13 @@ namespace College.Controllers
             {
                 HttpContext.Session.SetString("AdminEmail", email);
                 HttpContext.Session.SetInt32("AdminId", admin.Id);
+                HttpContext.Session.SetString("AdminName", admin.name);
+
+                var adminEmail = HttpContext.Session.GetString("AdminEmail");
+                ViewBag.AdminEmail = adminEmail;
+
+                Console.WriteLine("Admin Email: " + adminEmail);
+
                 return RedirectToAction("Dashboard");
             }
             ViewBag.ErrorMessage = "Invalid email or password.";
@@ -36,8 +43,9 @@ namespace College.Controllers
         {
             if (HttpContext.Session.GetString("AdminEmail") != null)
             {
+                var data = db.admins.ToList();
                 // Admin session is active, allow access to dashboard
-                return View();
+                return View(data);
             }
             else
             {
@@ -46,7 +54,13 @@ namespace College.Controllers
             }
         }
 
-        
+        public IActionResult Logout()
+        {
+            HttpContext.Response.Cookies.Delete("Admin");
+            return RedirectToAction("Login");
+        }
+
+
 
     }
 }
