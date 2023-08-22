@@ -1,22 +1,41 @@
 ﻿@{
-    Layout = "~/Views/Shared/_layout.cshtml";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
 }
-@model List<CollegeRegistration>
 <div class="container">
+    <h3 class="text-center my-5">College Registrations</h3>
     <div class="row">
-        <table>
+        <table class="table table-hover">
             <thead>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Father Name</th>
-            <th>Email</th>
-            <th>Date Of Birth</th>
-            <th>Address</th>
-            <th>Gender</th>
-            <th>Subject</th>
-            <th><a href="#" class="btn btn-dark">Update</a><a href="#" class="btn btn-danger">Delete</a></th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Father Name</th>
+                <th>Email</th>
+                <th>Date Of Birth</th>
+                <th>Address</th>
+                <th>Gender</th>
+                <th>Subject</th>
+                <th>Options</th>
             </thead>
             <tbody>
+                
+                @foreach (var a in Model)
+                {
+                    <tr>
+                        <td>@a.id</td>
+                        <td>@a.fullName</td>
+                        <td>@a.fatherName</td>
+                        <td>@a.email</td>
+                        <td>@a.dob</td>
+                        <td>@a.address</td>
+                        <td>@a.gender</td>
+                        <td>@a.subject</td>
+                        <td><a href="@Url.Action("ApproveStudent", "Admin", new {@a.id})"
+                               class="btn btn-dark @(@a.status == "Approved" ? "disabled" : "")" style="margin: 0 10px; border-radius: 0px;">@(@a.status == "Approved" ? "Approved" : "Approve")</a>
+                            <a href="@Url.Action("DeleteStudent", "Admin", new {@a.id})" 
+                        class="btn btn-danger" style="border-radius: 0px;">Delete</a></td>
+                    </tr>
+                }
+                
             </tbody>
         </table>
     </div>

@@ -1,4 +1,4 @@
-﻿@model List<admin>
+﻿
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,19 +35,7 @@
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <h4 style="margin-bottom: 0px;">
-            @if (Model != null && Model.Count > 0)
-            {
-                
-                @foreach (var admin in Model)
-                {
-                    @admin.name
-                }
-                
-            }
-            else
-            {
-                <span>Noadmin data available.</span>
-            }
+            @ViewBag.adminName
         </h4>
 
       </div>
@@ -118,15 +106,6 @@
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-          <div class="row">
-            <div class="col-md-12 grid-margin">
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <h4 class="font-weight-bold mb-0">Dashboard</h4>
-                </div>
-              </div>
-            </div>
-          </div>
           <div class="row">
             @RenderBody()
           </div>

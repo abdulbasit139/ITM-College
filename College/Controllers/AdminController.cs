@@ -1,4 +1,5 @@
 ﻿using College.Models;
+using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,6 +27,7 @@ namespace College.Controllers
             {
                 HttpContext.Session.SetString("AdminEmail", email);
                 HttpContext.Session.SetInt32("AdminId", admin.Id);
+                HttpContext.Session.SetString("AdminName", admin.name);
 
                 return RedirectToAction("Dashboard", "Admin");
             }
@@ -37,14 +39,12 @@ namespace College.Controllers
         {
             if (HttpContext.Session.GetString("AdminEmail") != null)
             {
-
-                var data = db.admins.ToList();
-                // Admin session is active, allow access to dashboard
-                return View(data);
+                string adminName = HttpContext.Session.GetString("AdminName");
+                ViewBag.adminName = adminName;
+                return View();
             }
             else
             {
-                // Admin session is not active, redirect to login page
                 return RedirectToAction("Login");
             }
         }
@@ -57,9 +57,26 @@ namespace College.Controllers
 
         public IActionResult Registrations()
         {
+            string adminName = HttpContext.Session.GetString("AdminName");
+            ViewBag.adminName = adminName;
             var data = db.CollegeRegistration.ToList();
             return View(data);
         }
 
+        public IActionResult ApproveStudent(int id)
+        {
+            var row = db.CollegeRegistration.Find(id);
+            row.status = "Approved";
+            db.SaveChanges();
+            return RedirectToAction("Registrations");
+        }
+
+        public IActionResult DeleteStudent(int id)
+        {
+            var row = db.CollegeRegistration.Find(id);
+            db.Remove(row);
+            db.SaveChanges();
+            return RedirectToAction("Registrations");
+        }
     }
 }
