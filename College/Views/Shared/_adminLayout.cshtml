@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model List<admin>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -34,9 +35,18 @@
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <h4 style="margin-bottom: 0px;">
-            @foreach (var a in Model)
+            @if (Model != null && Model.Count > 0)
             {
-                @a.name
+                
+                @foreach (var admin in Model)
+                {
+                    @admin.name
+                }
+                
+            }
+            else
+            {
+                <span>Noadmin data available.</span>
             }
         </h4>
 
@@ -71,6 +81,12 @@
             <a class="nav-link" href="orders.html">
               <i class="fa fa-user menu-icon"></i>
               <span class="menu-title">Students</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="@Url.Action("Registrations", "Admin")">
+              <i class="fa fa-file-lines menu-icon"></i>
+              <span class="menu-title">Registrations</span>
             </a>
           </li>
           <li class="nav-item">
