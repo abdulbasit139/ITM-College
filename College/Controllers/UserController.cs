@@ -1,5 +1,6 @@
 ﻿using College.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 
 namespace College.Controllers
 {
@@ -10,7 +11,7 @@ namespace College.Controllers
         {
             return View();
         }
-        public ActionResult About()
+        public ActionResult about()
         {
             return View(); 
         }
@@ -26,7 +27,10 @@ namespace College.Controllers
         {
             return View();
         }
-
+        public IActionResult StdLogin()
+        {
+            return View();
+        }
         // Functions
         CollegeDbContext db;
         public UserController(CollegeDbContext db)
@@ -42,6 +46,35 @@ namespace College.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
+        public IActionResult CheckLogin(string email, string password)
+        {
+            var std = db.CollegeRegistration.FirstOrDefault(a => a.email == email && a.password == password);
+            if (std != null) 
+            { 
+                
+                if (std.status == "Approved")
+                {
+                    HttpContext.Session.SetString("StudentEmail", email);
+                    HttpContext.Session.SetString("StudentName", std.fullName);
+                    return RedirectToAction("Index", "User");
+                }
+                if (std.status == "Pending")
+                {
+                    ViewBag.ErrorMessage = "Your Request Is in Pending";
+                    return View("StdLogin");
+                }
+                if (std.status == "Rejected")
+                {
+                    ViewBag.ErrorMessage = "Your Request Has Been Rejected";
+                    return View("StdLogin");
+                }
+
+            }
+            ViewBag.ErrorMessage = "Invalid Email Or Password";
+            return View("StdLogin");
+ 
+        }
 
         
 

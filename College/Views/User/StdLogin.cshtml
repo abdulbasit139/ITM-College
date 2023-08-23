@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_emptyLayout.cshtml";
+}
+<style>
+    body {
+        background: #ECECEC;
+    }
+
+    .col-lg-3 {
+        background : white;
+    }
+</style>
+
+<div class="row justify-content-center" style="height:90vh; align-items: center;">
+    <div class="col-lg-3" style=" padding: 0px 20px 30px 20px" data-aos="fade-up" data-aos-duration="700">
+
+        <h3 class="text-center mt-5 mb-3">Student Login</h3>
+        
+        <form asp-controller="User" asp-action="CheckLogin" method="POST">
+            <div class="alert alert-danger" style="display: @(ViewBag.ErrorMessage == null ? "none" : "") ;" role="alert">
+                @ViewBag.ErrorMessage
+            </div>
+            <div class="form-group mt-2">
+                <input type="email" class="form-control" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group mt-2">
+                <input type="password" class="form-control" name="password" placeholder="Password" required>
+            </div>
+
+            <div class="text-center"><button class="submit-btn btn btn-dark w-100" style="border-radius: 0px;" type="submit">Login</button></div>
+        </form>
+
+    </div>
+</div>

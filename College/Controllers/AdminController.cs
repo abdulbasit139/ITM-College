@@ -22,7 +22,7 @@ namespace College.Controllers
         public IActionResult CheckLogin(string email, string password)
         {
             var admin = db.admins.FirstOrDefault(a => a.email == email && a.password == password);
-
+            
             if (admin != null)
             {
                 HttpContext.Session.SetString("AdminEmail", email);
@@ -32,7 +32,7 @@ namespace College.Controllers
                 return RedirectToAction("Dashboard", "Admin");
             }
             ViewBag.ErrorMessage = "Invalid email or password.";
-            return RedirectToAction("login");
+            return View("login");
 
         }
         public IActionResult Dashboard()
@@ -74,7 +74,7 @@ namespace College.Controllers
         public IActionResult DeleteStudent(int id)
         {
             var row = db.CollegeRegistration.Find(id);
-            db.Remove(row);
+            row.status = "Rejected";
             db.SaveChanges();
             return RedirectToAction("Registrations");
         }

@@ -17,6 +17,13 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true; 
 });
 
+builder.Services.AddSession(options =>
+{
+    options.Cookie.Name = "Student";
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.IsEssential = true;
+});
+
 builder.Services.AddDbContext<CollegeDbContext>(
     options => options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultString")

@@ -20,20 +20,27 @@
                 
                 @foreach (var a in Model)
                 {
-                    <tr>
-                        <td>@a.id</td>
-                        <td>@a.fullName</td>
-                        <td>@a.fatherName</td>
-                        <td>@a.email</td>
-                        <td>@a.dob</td>
-                        <td>@a.address</td>
-                        <td>@a.gender</td>
-                        <td>@a.subject</td>
-                        <td><a href="@Url.Action("ApproveStudent", "Admin", new {@a.id})"
-                               class="btn btn-dark @(@a.status == "Approved" ? "disabled" : "")" style="margin: 0 10px; border-radius: 0px;">@(@a.status == "Approved" ? "Approved" : "Approve")</a>
-                            <a href="@Url.Action("DeleteStudent", "Admin", new {@a.id})" 
-                        class="btn btn-danger" style="border-radius: 0px;">Delete</a></td>
-                    </tr>
+                    if (a.status == "Rejected")
+                    {
+                        
+                    } else
+                    {
+                        <tr>
+                            <td>@a.id</td>
+                            <td>@a.fullName</td>
+                            <td>@a.fatherName</td>
+                            <td>@a.email</td>
+                            <td>@a.dob</td>
+                            <td>@a.address</td>
+                            <td>@a.gender</td>
+                            <td>@a.subject</td>
+                            <td><a href="@Url.Action("ApproveStudent", "Admin", new {@a.id})" class="btn btn-dark @(@a.status == "Approved" ? "disabled" : "")"
+                                style="margin: 0 10px; border-radius: 0px;">@(@a.status == "Approved" ? "Approved" : "Approve")</a>
+                                <a href="@Url.Action("DeleteStudent", "Admin", new {@a.id})" 
+                            class="btn btn-danger" style="border-radius: 0px;">Delete</a></td>
+                        </tr>
+                        
+                    }
                 }
                 
             </tbody>

@@ -13,6 +13,8 @@ namespace College.Models
         [Required]
         public string email { get; set; }
         [Required]
+        public string password { get; set; }
+        [Required]
         public string dob { get; set; }
         [Required]
         public string address { get; set; }
