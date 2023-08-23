@@ -1,0 +1,43 @@
+﻿@{
+    var data = ViewBag.data;
+}
+<div class="container" style="margin: 100px auto">
+        <h3 class="text-center">Profile</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <div style="margin: auto; border-radius: 50%; overflow: hidden; height: 200px; width: 200px; border: 2px solid gray;">
+                <img src="~/uploads/@data.imagePath"  width="100%"/>
+            </div>
+            <form asp-controller="User" asp-action="UpdateImage" method="post" enctype="multipart/form-data" class="w-50 m-auto">
+                <div class="form-group mt-3">
+                    <h4 class="text-center">Update Image</h4>
+                    <input type="file" class="form-control" name="image" accept="image/*" required>
+                    <button type="submit" class="btn btn-dark form-control mt-2">Update</button>
+                </div>
+            </form>
+            
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-center">@data.fullName</h2>
+            <form asp-controller="User" asp-action="UpdateName" method="post" class="w-50 m-auto">
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="name" placeholder="Update Name" required>
+                    <button type="submit" class="btn btn-dark form-control mt-2">Update</button>
+                </div>
+            </form>
+            <h4 class="text-center mt-3">@data.email</h4>
+            <form asp-controller="User" asp-action="UpdateEmail" method="post" class="w-50 m-auto">
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="email" placeholder="Update Email" required>
+                    <button type="submit" class="btn btn-dark form-control mt-2">Update</button>
+                </div>
+            </form>
+            <form asp-controller="User" asp-action="UpdatePass" method="post" class="w-50 m-auto">
+                <div class="form-group mt-3">
+                    <input type="password" class="form-control" name="pass" placeholder="Update Password" required>
+                    <button type="submit" class="btn btn-dark form-control mt-2">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

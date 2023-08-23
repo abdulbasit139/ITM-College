@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7PPOm+V4rYxg5etfVWM/ZP9F40vcr9iqXQ+pS+5Q+fs=",
+  "Hash": "i+dvWFVPRo8BRFhPhD6tbuiA2Ps5jM0jVA9calTzBqk=",
   "Source": "College",
   "BasePath": "_content/College",
   "Mode": "Default",
@@ -4928,6 +4928,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
+    },
+    {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\7cfb0965-3d7e-4b91-850e-901c4fb54bdf_WhatsApp Image 2023-06-17 at 10.29.32.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "uploads/7cfb0965-3d7e-4b91-850e-901c4fb54bdf_WhatsApp Image 2023-06-17 at 10.29.32.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7cfb0965-3d7e-4b91-850e-901c4fb54bdf_WhatsApp Image 2023-06-17 at 10.29.32.jpg"
     },
     {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\.DS_Store",

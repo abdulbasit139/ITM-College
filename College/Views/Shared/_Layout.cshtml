@@ -55,16 +55,16 @@
                     <li><a href="#">DEPARTMENTS</a></li>
                     <li><a href="trainers.cshtml">FACULTY</a></li>
                     <li><a href="#">FACILITIES</a></li>
-                    <li><a href="@Url.Action("Pricing")">STUDENT REGISTRATION</a></li>
                     <li><a href="@Url.Action("Contact")">CONTACT US</a></li>
                     
                     @if (ViewBag.StudentName != null)
                     {
-                        <li><a href="@Url.Action("StdLogout", "User")" class="btn std-login-btn">Logout</a></li>
+                        <li><a href="@Url.Action("Profile", "User")">PROFILE</a></li>
+                        <li><a href="@Url.Action("StdLogout", "User")" class="btn std-login-btn">LOGOUT</a></li>
                     }
                     else
                     {
-                        <li><a href="@Url.Action("StdLogin", "User")" class="btn std-login-btn">Login</a></li>
+                        <li><a href="@Url.Action("StdLogin", "User")" class="btn std-login-btn">LOGIN</a></li>
                     }
                     
                 </ul>

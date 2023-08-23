@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Abdul Basit\source\repos\College\College
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Abdul Basit/source/repos/College/College/Views/Admin/AdminProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Qcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Abdul Basit/source/repos/College/College/Views/Admin/CheckLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hlY2tMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Abdul Basit/source/repos/College/College/Views/User/Pricing.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcmljaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdul Basit/source/repos/College/College/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Abdul Basit/source/repos/College/College/Views/User/StdLogin.cshtml]

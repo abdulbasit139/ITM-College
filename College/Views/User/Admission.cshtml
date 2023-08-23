@@ -4,7 +4,7 @@
             <div class="col-lg-8 mt-5 ">
 
                 <h3 class="text-center mt-5 mb-3">Admission Form</h3>
-                <form asp-controller="User" asp-action="Admission" method="post">
+                <form asp-controller="User" asp-action="Admission" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" class="form-control" name="fullName" placeholder="Full Name" required>
@@ -25,6 +25,10 @@
                     <div class="form-group mt-3">
                         <input type="text" class="form-control" name="address" placeholder="Address" required>
                     </div>
+                    <div class="form-group mt-3">
+                        <input type="file" class="form-control" name="image" accept="image/*" required>
+                    </div>
+
                     <div class="form-group mt-3 gende-main">
                         <select class="form-control" name="gender" required >
                             <option value="male">Male</option>
@@ -40,7 +44,6 @@
                             <option value="fa">FA</option>
                         </select>
                     </div>
-
                     <div class="text-center"><button class="submit-btn" type="submit">Register</button></div>
                 </form>
                 

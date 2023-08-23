@@ -83,5 +83,42 @@ namespace College.Controllers
             db.SaveChanges();
             return RedirectToAction("Registrations");
         }
+
+        public IActionResult AdminProfile()
+        {
+            var id = HttpContext.Session.GetInt32("AdminId");
+            ViewBag.Data = db.admins.Find(id);
+            var data = ViewBag.Data = db.admins.Find(id);
+            ViewBag.adminName = data.name ;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult UpdateName(string name)
+        {
+            var id = HttpContext.Session.GetInt32("AdminId");
+            var admin = db.admins.Find(id);
+            admin.name = name;
+            db.SaveChanges();
+            return RedirectToAction("AdminProfile");
+        }
+        [HttpPost]
+        public IActionResult UpdateEmail(string email)
+        {
+            var id = HttpContext.Session.GetInt32("AdminId");
+            var admin = db.admins.Find(id);
+            admin.email = email;
+            db.SaveChanges();
+            return RedirectToAction("AdminProfile");
+        }
+        [HttpPost]
+        public IActionResult UpdatePass(string pass)
+        {
+            var id = HttpContext.Session.GetInt32("AdminId");
+            var admin = db.admins.Find(id);
+            admin.password = pass;
+            db.SaveChanges();
+            return RedirectToAction("AdminProfile");
+        }
     }
 }

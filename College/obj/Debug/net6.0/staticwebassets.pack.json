@@ -1157,6 +1157,10 @@
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\7cfb0965-3d7e-4b91-850e-901c4fb54bdf_WhatsApp Image 2023-06-17 at 10.29.32.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7cfb0965-3d7e-4b91-850e-901c4fb54bdf_WhatsApp Image 2023-06-17 at 10.29.32.jpg"
+    },
+    {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\.DS_Store",
       "PackagePath": "staticwebassets\\vendors\\.DS_Store"
     },

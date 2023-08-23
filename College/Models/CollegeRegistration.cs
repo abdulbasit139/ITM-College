@@ -18,6 +18,7 @@ namespace College.Models
         public string dob { get; set; }
         [Required]
         public string address { get; set; }
+        public string imagePath { get; set; }
         [Required]
         public string gender { get; set; }
         [Required]
