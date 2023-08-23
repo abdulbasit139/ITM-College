@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+<div class="container">
+    <div class="row" style="justify-content: space-evenly">
+        <h3 class="text-center my-5">Admin Control</h3>
+        <div class="col-md-4">
+            <table class="table">
+                <thead>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </thead>
+                <tbody>
+                    
+                    @foreach (var a in Model)
+                    {
+                        @if (a.Id == 1)
+                        {
+                            
+                        } else
+                        {
+                            <tr>
+                                <td>@a.Id</td>
+                                <td>@a.name</td>
+                                <td>@a.email</td>
+                                <td><a href="@Url.Action("DeleteAdmin", "Admin", new {@a.Id})" class="btn btn-danger">Delete</a></td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-5">
+            <form asp-controller="Admin" asp-action="AddAdmin" method="post">
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group mt-3">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group mt-3">
+                    <input type="password" class="form-control" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group mt-3">
+                    <button type="submit" class="btn btn-dark form-control mt-2">Add Admin</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

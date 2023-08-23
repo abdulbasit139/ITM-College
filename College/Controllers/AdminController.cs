@@ -22,7 +22,7 @@ namespace College.Controllers
         public IActionResult CheckLogin(string email, string password)
         {
             var admin = db.admins.FirstOrDefault(a => a.email == email && a.password == password);
-            
+
             if (admin != null)
             {
                 HttpContext.Session.SetString("AdminEmail", email);
@@ -87,9 +87,9 @@ namespace College.Controllers
         public IActionResult AdminProfile()
         {
             var id = HttpContext.Session.GetInt32("AdminId");
+            var data = db.admins.Find(id);
             ViewBag.Data = db.admins.Find(id);
-            var data = ViewBag.Data = db.admins.Find(id);
-            ViewBag.adminName = data.name ;
+            ViewBag.adminName = data.name;
             return View();
         }
 
@@ -119,6 +119,37 @@ namespace College.Controllers
             admin.password = pass;
             db.SaveChanges();
             return RedirectToAction("AdminProfile");
+        }
+        public IActionResult Admins()
+        {
+            var id = HttpContext.Session.GetInt32("AdminId");
+            var adminName = HttpContext.Session.GetString("AdminName");
+            ViewBag.adminName = adminName;
+            ViewBag.AdminId = id;
+            var data = db.admins.ToList();
+            return View(data);
+        }
+        [HttpPost]
+        public IActionResult AddAdmin(admin req)
+        {
+            db.admins.Add(req);
+            db.SaveChanges();
+            return RedirectToAction("Admins");
+        }
+        
+        public IActionResult DeleteAdmin(int id)
+        {
+            var prof = db.admins.Find(id);
+            db.admins.Remove(prof); 
+            db.SaveChanges();
+            return RedirectToAction("Admins");
+        }
+
+        public IActionResult Students()
+        {
+            ViewBag.adminName = HttpContext.Session.GetString("AdminName");
+            var data = db.CollegeRegistration.ToList();
+            return View(data);
         }
     }
 }

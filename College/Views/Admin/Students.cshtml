@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <h3 class="text-center my-3">Students</h3>
+        <table class="table">
+            <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Father Name</th>
+                <th>Email</th>
+                <th>Date Of Birth</th>
+                <th>Address</th>
+                <th>Gender</th>
+                <th>Subject</th>
+            </thead>
+            <tbody>
+                @foreach (var a in Model)
+                {
+                    if (a.status == "Rejected" || a.status == "Pending")
+                    {
+                        
+                    }
+                    else
+                    {
+                        <tr>
+                            <td>@a.id</td>
+                            <td>@a.fullName</td>
+                            <td>@a.fatherName</td>
+                            <td>@a.email</td>
+                            <td>@a.dob</td>
+                            <td>@a.address</td>
+                            <td>@a.gender</td>
+                            <td>@a.subject</td>
+
+                        </tr>
+                    }
+                    
+                }
+            </tbody>
+        </table>
+    </div>
+</div> 

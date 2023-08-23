@@ -59,6 +59,7 @@ namespace College.Controllers
         [HttpPost]
         public ActionResult Admission(CollegeRegistration reg, IFormFile image)
         {
+            
             if (image != null && image.Length > 0)
             {
                 string uploadsFolder = Path.Combine(_hostingEnvironment.WebRootPath, "uploads");
@@ -75,6 +76,7 @@ namespace College.Controllers
 
             db.CollegeRegistration.Add(reg);
             db.SaveChanges();
+            
             return RedirectToAction("Index");
         }
 
