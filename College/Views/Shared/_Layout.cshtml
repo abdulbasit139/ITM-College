@@ -57,7 +57,16 @@
                     <li><a href="#">FACILITIES</a></li>
                     <li><a href="@Url.Action("Pricing")">STUDENT REGISTRATION</a></li>
                     <li><a href="@Url.Action("Contact")">CONTACT US</a></li>
-                    <li><a href="@Url.Action("StdLogin", "User")" class="btn std-login-btn">Login</a></li>
+                    
+                    @if (ViewBag.StudentName != null)
+                    {
+                        <li><a href="@Url.Action("StdLogout", "User")" class="btn std-login-btn">Logout</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="@Url.Action("StdLogin", "User")" class="btn std-login-btn">Login</a></li>
+                    }
+                    
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->

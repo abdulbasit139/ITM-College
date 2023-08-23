@@ -9,7 +9,15 @@ namespace College.Controllers
         // View Actions
         public IActionResult Index()
         {
-            return View();
+            if (HttpContext.Session.GetString("StudentEmail") != null)
+            {
+                ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
+                ViewBag.StudentEmail = HttpContext.Session.GetString("StudentEmail");
+                return View();
+            } else
+            {
+                return View();
+            }
         }
         public ActionResult about()
         {
@@ -76,7 +84,15 @@ namespace College.Controllers
  
         }
 
-        
+        public IActionResult StdLogout()
+        {
+            HttpContext.Session.Remove("StudentEmail");
+            HttpContext.Session.Remove("StudentName");
+
+
+            Response.Cookies.Delete("Student.Session");
+            return RedirectToAction("Index");
+        }
 
     }
 }

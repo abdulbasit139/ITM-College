@@ -51,7 +51,12 @@ namespace College.Controllers
 
         public IActionResult Logout()
         {
-            HttpContext.Response.Cookies.Delete("Admin");
+            HttpContext.Session.Remove("AdminEmail");
+            HttpContext.Session.Remove("AdminId");
+            HttpContext.Session.Remove("AdminName");
+
+
+            Response.Cookies.Delete("Admin.Session");
             return RedirectToAction("Login");
         }
 
