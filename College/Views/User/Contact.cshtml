@@ -18,7 +18,7 @@
 
         <div class="row mt-5">
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 mt-5">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -43,8 +43,8 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <h3 class="text-center mb-3">Feedback</h3>
+            <form asp-controller="User" asp-action="Feedback" method="post">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -54,17 +54,14 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="title" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="description" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center mt-3">
+                  <button type="submit" class="btn btn-dark" style="border-radius: 0px;">Send Message</button>
+               </div>
             </form>
 
           </div>

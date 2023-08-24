@@ -26,18 +26,34 @@ namespace College.Controllers
         }
         public ActionResult about()
         {
+            if (ViewBag.StudentName = HttpContext.Session.GetString("StudentName") != null)
+            {
+                ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
+            }
             return View(); 
         }
         public ActionResult Pricing()
         {
+            if (ViewBag.StudentName = HttpContext.Session.GetString("StudentName") != null)
+            {
+                ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
+            }
             return View();
         }
         public ActionResult Contact()
         {
+            if (ViewBag.StudentName = HttpContext.Session.GetString("StudentName") != null)
+            {
+                ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
+            }
             return View();
         }
         public ActionResult Admission()
         {
+            if (ViewBag.StudentName = HttpContext.Session.GetString("StudentName") != null)
+            {
+                ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
+            }
             return View();
         }
         public IActionResult StdLogin()
@@ -126,6 +142,7 @@ namespace College.Controllers
         {
             var id = HttpContext.Session.GetInt32("StudentId");
             ViewBag.data = db.CollegeRegistration.Find(id);
+            ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
             return View();
         }
 
@@ -183,6 +200,14 @@ namespace College.Controllers
             db.SaveChanges();
             ViewBag.Message = "Password Changed";
             return RedirectToAction("Profile");
+        }
+
+        [HttpPost]
+        public IActionResult Feedback(Feedback fed)
+        {
+            db.feedback.Add(fed);
+            db.SaveChanges();
+            return RedirectToAction("Contact", "User");
         }
     }
 }

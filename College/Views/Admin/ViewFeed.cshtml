@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+    var data = ViewBag.Fed;
+}
+<style>
+    .col-md-5 p {
+        font-size: 20px;
+    }
+</style>
+
+<div class="container">
+    <h3 class="text-center mb-5 mt-2">User Feedback</h3>
+    <div class="row" style="justify-content: space-evenly">
+        <div class="col-md-5">
+            <p><b>Id :</b> @data.id</p>
+            <p><b>Name :</b> @data.name</p>
+            <p><b>Email :</b> @data.email</p>
+        </div>
+        <div class="col-md-5">
+            <p>Message: </p>
+            <span>
+                @data.description
+            </span>
+        </div>
+    </div>
+    <div class="text-center mt-5">
+        <a href="@Url.Action("Feedback", "Admin")" class="btn btn-dark">View All</a>
+        <a href="@Url.Action("DeleteFeed", "Admin", new {@data.id})" class="btn btn-danger">Delete</a>
+    </div>
+    
+</div>

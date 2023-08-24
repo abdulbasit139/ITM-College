@@ -1,4 +1,5 @@
 ﻿using College.Models;
+using Humanizer.Localisation.TimeToClockNotation;
 using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -40,6 +41,10 @@ namespace College.Controllers
             if (HttpContext.Session.GetString("AdminEmail") != null)
             {
                 string adminName = HttpContext.Session.GetString("AdminName");
+                var totalReg = db.CollegeRegistration.Count(a => a.status == "Approved" || a.status == "Pending");
+                var std = db.CollegeRegistration.Count(a => a.status == "Approved");
+                ViewBag.std = std;
+                ViewBag.Registrations = totalReg;
                 ViewBag.adminName = adminName;
                 return View();
             }
@@ -150,6 +155,27 @@ namespace College.Controllers
             ViewBag.adminName = HttpContext.Session.GetString("AdminName");
             var data = db.CollegeRegistration.ToList();
             return View(data);
+        }
+
+        public IActionResult Feedback()
+        {
+            ViewBag.adminName = HttpContext.Session.GetString("AdminName");
+            var data = db.feedback.ToList();
+            return View(data);
+        }
+        
+        public IActionResult DeleteFeed(int id)
+        {
+            var data = db.feedback.Find(id);
+            db.feedback.Remove(data);
+            db.SaveChanges();
+            return RedirectToAction("Feedback");
+        }
+        public IActionResult ViewFeed(int id)
+        {
+            ViewBag.adminName = HttpContext.Session.GetString("AdminName");
+            ViewBag.Fed = db.feedback.Find(id);
+            return View();
         }
     }
 }

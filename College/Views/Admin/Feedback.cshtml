@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<div class="container">
+    <h3 class="text-center my-3 mb-5">Users Feedback</h3>
+    <table class="table">
+        <thead>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Action</td>
+        </thead>
+        <tbody>
+            
+            @foreach(var a in Model)
+            {
+                <tr>
+                    <td>@a.id</td>
+                    <td>@a.title</td>
+                    <td>@a.name</td>
+                    <td>@a.email</td>
+                    <td>
+                        <a href="@Url.Action("ViewFeed", "Admin", new {@a.id})" class="btn btn-dark">VIEW</a>
+                        <a href="@Url.Action("DeleteFeed", "Admin", new {@a.id})" class="btn btn-danger">DELETE</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

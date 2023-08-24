@@ -51,7 +51,14 @@
                 <ul>
                     <li><a href="@Url.Action("Index")">HOME</a></li>
                     <li><a href="@Url.Action("About")">COURSES</a></li>
-                    <li><a href="@Url.Action("Admission")">ADMISSION</a></li>
+                    @if (ViewBag.StudentName != null)
+                    {
+                        
+                    } else
+                    {
+                        <li><a href="@Url.Action("Admission")">ADMISSION</a></li>
+                    }
+                    
                     <li><a href="#">DEPARTMENTS</a></li>
                     <li><a href="trainers.cshtml">FACULTY</a></li>
                     <li><a href="#">FACILITIES</a></li>

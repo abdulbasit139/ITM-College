@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o1R8WYZFV/p7gQKlas4YZwerrAUcczKuBIPzdtJnZw0=",
+  "Hash": "/HMqFsjMgcfThEShoTzc8XTQjN+HH6i/gc21FC2L65I=",
   "Source": "College",
   "BasePath": "_content/College",
   "Mode": "Default",
@@ -4945,6 +4945,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\6547d6e0-9fa0-4970-9baa-cd0932dbcf9f_IMG-20230514-WA0003.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\70d52c3a-cca8-4c2c-8c80-c079db6b09f3_IMG-20230514-WA0002.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "uploads/70d52c3a-cca8-4c2c-8c80-c079db6b09f3_IMG-20230514-WA0002.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\70d52c3a-cca8-4c2c-8c80-c079db6b09f3_IMG-20230514-WA0002.jpg"
     },
     {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\7cfb0965-3d7e-4b91-850e-901c4fb54bdf_WhatsApp Image 2023-06-17 at 10.29.32.jpg",

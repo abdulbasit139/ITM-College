@@ -9,7 +9,7 @@
             <div class="card-body">
                 <p class="card-title text-md-center text-xl-left">Registrations</p>
                 <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
-                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">43</h3>
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">@ViewBag.Registrations</h3>
                     <i class="fa fa-file-lines icon-md text-muted mb-0 mb-md-3 mb-xl-0"></i>
                 </div>
             </div>
@@ -23,7 +23,7 @@
             <div class="card-body">
                 <p class="card-title text-md-center text-xl-left">Students</p>
                 <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
-                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">302</h3>
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">@ViewBag.std</h3>
                     <i class="fa fa-user icon-md text-muted mb-0 mb-md-3 mb-xl-0"></i>
                 </div>
             </div>
@@ -35,7 +35,7 @@
 
 <div class="col-md-3 grid-margin stretch-card">
     <div class="card">
-        <a href="">
+        <a href="@Url.Action("Feedback", "Admin")">
             <div class="card-body">
                 <p class="card-title text-md-center text-xl-left">Feedback</p>
                 <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
