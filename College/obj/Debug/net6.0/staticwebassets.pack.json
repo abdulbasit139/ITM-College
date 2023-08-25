@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\C5_BIwKUYAAnBla.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\C5_BIwKUYAAnBla.jpg"
+    },
+    {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\about.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about.jpg"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\banner.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\college-essentials-for-guys-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\college-essentials-for-guys-4.jpg"
     },
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\course-1.jpg",
@@ -71,6 +79,10 @@
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\hero-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\slider_home.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider_home.jpg"
     },
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",

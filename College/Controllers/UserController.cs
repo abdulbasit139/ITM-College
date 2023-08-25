@@ -42,7 +42,7 @@ namespace College.Controllers
         }
         public ActionResult about()
         {
-            if (ViewBag.StudentName = HttpContext.Session.GetString("StudentName") != null)
+            if (HttpContext.Session.GetString("StudentName") != null)
             {
                 ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
             }
@@ -50,7 +50,7 @@ namespace College.Controllers
         }
         public ActionResult Pricing()
         {
-            if (ViewBag.StudentName = HttpContext.Session.GetString("StudentName") != null)
+            if (HttpContext.Session.GetString("StudentName") != null)
             {
                 ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
             }
@@ -58,7 +58,7 @@ namespace College.Controllers
         }
         public ActionResult Contact()
         {
-            if (ViewBag.StudentName = HttpContext.Session.GetString("StudentName") != null)
+            if (HttpContext.Session.GetString("StudentName") != null)
             {
                 ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
             }

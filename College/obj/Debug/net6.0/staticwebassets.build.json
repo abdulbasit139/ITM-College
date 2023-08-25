@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7B6ve+DtT9nUJfO+8vxDGF7rAkxTMq8f1wKM7pkowd0=",
+  "Hash": "NuYeezNAtus0ASHjnX5Iaa0oDtIp5Xiu2kUGywFTIME=",
   "Source": "College",
   "BasePath": "_content/College",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\banner.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\C5_BIwKUYAAnBla.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "assets/img/C5_BIwKUYAAnBla.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\C5_BIwKUYAAnBla.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\college-essentials-for-guys-4.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "assets/img/college-essentials-for-guys-4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\college-essentials-for-guys-4.jpg"
     },
     {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\course-1.jpg",
@@ -321,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\slider_home.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "assets/img/slider_home.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\slider_home.jpg"
     },
     {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
