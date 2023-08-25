@@ -1,0 +1,53 @@
+﻿@{
+    var data = ViewBag.data;
+    var num = 1;
+}
+<div class="container ">
+    <h2 class="text-center" style="margin-top: 100px; margin-bottom: 40px;">Teachers</h2>
+    @foreach (var a in data)
+    {
+
+        if (num == 1)
+        {
+            <div class="row justify-content-evenly" style="margin-bottom: 150px;">
+                <div class="col-md-5">
+                    <img src="~/uploads/@a.imagePath" width="70%" />
+                </div>
+                <div class="col-md-5">
+                    <h3 class="my-2">@a.name</h3>
+                    <div>
+                        <p> @a.descirption</p>
+                    </div>
+                    <div class="row mt-3 justify-content-between">
+                        <div class="col-3">
+                            <h4><b>@a.subject</b></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            num = 2;
+        }
+        else if (num == 2)
+        {
+            <div class="row justify-content-evenly" style="margin-bottom: 150px;">
+
+                <div class="col-md-5">
+                    <h3 class="my-2">@a.name</h3>
+                    <div>
+                        <p> @a.descirption</p>
+                    </div>
+                    <div class="row mt-3 justify-content-between">
+                        <div class="col-3">
+                            <h4><b>@a.subject</b></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="~/uploads/@a.imagePath" width="70%" style="float: right" />
+                </div>
+            </div>
+            num = 1;
+        }
+
+    }
+</div>

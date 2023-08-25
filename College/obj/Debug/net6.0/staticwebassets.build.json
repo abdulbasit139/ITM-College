@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3eM3SJE8gm28Difk8tpuP2xbn5SWfl+GUZlvSgHcT74=",
+  "Hash": "7B6ve+DtT9nUJfO+8vxDGF7rAkxTMq8f1wKM7pkowd0=",
   "Source": "College",
   "BasePath": "_content/College",
   "Mode": "Default",
@@ -1902,6 +1902,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\.DS_Store"
+    },
+    {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\css\\faculty.css",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "css/faculty.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\faculty.css"
     },
     {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\css\\maps\\style.css.map",
@@ -4930,6 +4947,23 @@
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
     },
     {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\15c21b7a-1df2-449e-929f-fb03b1425de8_trainer-1.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "uploads/15c21b7a-1df2-449e-929f-fb03b1425de8_trainer-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\15c21b7a-1df2-449e-929f-fb03b1425de8_trainer-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\3fe3eba0-4233-4599-86b6-8757ddf40aae_636943117732554709255.jpeg",
       "SourceId": "College",
       "SourceType": "Discovered",
@@ -4964,6 +4998,23 @@
       "OriginalItemSpec": "wwwroot\\uploads\\541be65c-5a34-4860-bf82-292adc03eb6a_63761086367073090673.jpg"
     },
     {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\5dd9900f-5b6f-4d3b-a492-e9cb5a377657_trainer-3.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "uploads/5dd9900f-5b6f-4d3b-a492-e9cb5a377657_trainer-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5dd9900f-5b6f-4d3b-a492-e9cb5a377657_trainer-3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\73a7124a-07db-4bc8-a014-b992d78f2a65_Computer Science Course.jpg",
       "SourceId": "College",
       "SourceType": "Discovered",
@@ -4981,6 +5032,23 @@
       "OriginalItemSpec": "wwwroot\\uploads\\73a7124a-07db-4bc8-a014-b992d78f2a65_Computer Science Course.jpg"
     },
     {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\75df7f8f-a23c-4134-8785-bdee26b5d12a_WhatsApp Image 2023-06-17 at 10.29.32.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "uploads/75df7f8f-a23c-4134-8785-bdee26b5d12a_WhatsApp Image 2023-06-17 at 10.29.32.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\75df7f8f-a23c-4134-8785-bdee26b5d12a_WhatsApp Image 2023-06-17 at 10.29.32.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\86be3a9e-1dfc-4f55-9153-2971be1e7f86_program-bachelor-of-science-in-computer-science-1920x1080-1-750x430.jpg",
       "SourceId": "College",
       "SourceType": "Discovered",
@@ -4996,6 +5064,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\86be3a9e-1dfc-4f55-9153-2971be1e7f86_program-bachelor-of-science-in-computer-science-1920x1080-1-750x430.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\9790a16b-5854-4a4e-9b54-91aa9541a993_trainer-2.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "uploads/9790a16b-5854-4a4e-9b54-91aa9541a993_trainer-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9790a16b-5854-4a4e-9b54-91aa9541a993_trainer-2.jpg"
     },
     {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\abac95e8-e6de-4a42-9eb3-4189f0ea5c3c_636943117732554709255.jpeg",
@@ -5047,6 +5132,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\e374f630-503b-49c2-9570-3a22df48556a_Computer Science Course.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\fc1902fa-1e48-4bfb-ad78-1073492512d6_trainer-1.jpg",
+      "SourceId": "College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\",
+      "BasePath": "_content/College",
+      "RelativePath": "uploads/fc1902fa-1e48-4bfb-ad78-1073492512d6_trainer-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\fc1902fa-1e48-4bfb-ad78-1073492512d6_trainer-1.jpg"
     },
     {
       "Identity": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\.DS_Store",

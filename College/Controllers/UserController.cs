@@ -13,25 +13,29 @@ namespace College.Controllers
         // View Actions
         public IActionResult Index()
         {
+            var courses = db.courses.Count();
+            var data = db.courses.ToList();
+            var std = db.CollegeRegistration.Count(a => a.status == "Approved");
+            var tutors = db.tutors.Count();
+            var tutorData = db.tutors.ToList();
+
             if (HttpContext.Session.GetString("StudentEmail") != null)
             {
                 ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
                 ViewBag.StudentEmail = HttpContext.Session.GetString("StudentEmail");
                 ViewBag.StudentId = HttpContext.Session.GetString("StudentId");
-                var courses = db.courses.Count();
                 ViewBag.courses = courses;
-                var data = db.courses.ToList();
+                ViewBag.tutors = tutors;
                 ViewBag.data = data;
-                var std = db.CollegeRegistration.Count(a => a.status == "Approved");
+                ViewBag.tutorsData = tutorData;
                 ViewBag.std = std;
                 return View();
             } else
             {
-                var courses = db.courses.Count();
                 ViewBag.courses = courses; 
-                var std = db.CollegeRegistration.Count(a => a.status == "Approved");
                 ViewBag.std = std;
-                var data = db.courses.ToList();
+                ViewBag.tutors = tutors;
+                ViewBag.tutorsData = tutorData;
                 ViewBag.data = data;
                 return View();
             }
@@ -226,6 +230,16 @@ namespace College.Controllers
         {
             var data = db.courses.ToList();
             ViewBag.data = data;
+            return View();
+        }
+        public IActionResult Teachers()
+        {
+            var data = db.tutors.ToList();
+            ViewBag.data = data;
+            return View();
+        }
+        public IActionResult Faculty()
+        {
             return View();
         }
     }

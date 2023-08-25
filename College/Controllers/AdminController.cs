@@ -3,6 +3,7 @@ using Humanizer.Localisation.TimeToClockNotation;
 using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 
 namespace College.Controllers
 {
@@ -228,6 +229,48 @@ namespace College.Controllers
             db.courses.Remove(course); 
             db.SaveChanges();
             return RedirectToAction("Courses");
+        }
+
+        public IActionResult Teachers()
+        {
+            ViewBag.teachers = db.tutors.ToList();
+            ViewBag.adminName = HttpContext.Session.GetString("AdminName");
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddTeacher(Tutors data, IFormFile image)
+        {
+            if (image != null && image.Length > 0)
+            {
+                string uploadsFolder = Path.Combine(_hostingEnvironment.WebRootPath, "uploads");
+                string uniqueFileName = Guid.NewGuid().ToString() + "_" + image.FileName;
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    image.CopyTo(fileStream);
+                }
+                data.imagePath = uniqueFileName;
+
+            }
+
+            db.tutors.Add(data);
+            db.SaveChanges();
+            return RedirectToAction("Teachers");
+        }
+        public IActionResult TutorDetails(int id)
+        {
+            var tutor = db.tutors.Find(id);
+            ViewBag.adminName = HttpContext.Session.GetString("AdminName");
+            ViewBag.tutor = tutor;
+            return View();
+        }
+        public IActionResult RemoveTutor(int id)
+        {
+            var tutor = db.tutors.Find(id);
+            db.tutors.Remove(tutor);
+            db.SaveChanges();
+            return RedirectToAction("Teachers");
         }
     }
 }

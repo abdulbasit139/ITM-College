@@ -56,7 +56,7 @@
 
 
                 <div class="col-lg-4 col-6 text-center">
-                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="@ViewBag.tutors" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Trainers</p>
                 </div>
 
@@ -122,23 +122,33 @@
             </div>
 
             <div class="row" data-aos="zoom-in" data-aos-delay="100">
-                
+                @{
+                    var tuCount = 0;
+                }
                 @foreach (var a in ViewBag.data)
                 {
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                        <div class="course-item">
-                            <img src="~/uploads/@a.imagePath" class="img-fluid" alt="...">
-                            <div class="course-content">
-                                <div class="d-flex justify-content-between align-items-center mb-3">
-                                    <h4>@a.duration</h4>
-                                    <p class="price">$@a.price</p>
-                                </div>
+                    if (tuCount < 3)
+                    {
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                            <div class="course-item">
+                                <img src="~/uploads/@a.imagePath" class="img-fluid" alt="...">
+                                <div class="course-content">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <h4>@a.duration</h4>
+                                        <p class="price">$@a.price</p>
+                                    </div>
 
-                                <h3><a href="course-details.html">@a.title</a></h3>
-                                <p>@a.description</p>
+                                    <h3><a href="course-details.html">@a.title</a></h3>
+                                    <p>@a.description</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        tuCount++;
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
                 
                 <!-- End Course Item-->
@@ -150,64 +160,38 @@
     <!-- ======= Trainers Section ======= -->
     <section id="trainers" class="trainers">
         <div class="container" data-aos="fade-up">
-
+            <div class="section-title">
+                <p>Teachers</p>  
+            </div>
             <div class="row" data-aos="zoom-in" data-aos-delay="100">
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <img src="~/assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
-                        <div class="member-content">
-                            <h4>Walter White</h4>
-                            <span>Web Development</span>
-                            <p>
-                                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-                            </p>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
+                
+                @{
+                    var coCount = 0;
+                }
+                @foreach (var a in ViewBag.tutorsData)
+                {
+                    if (coCount < 3)
+                    {
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div class="member">
+                                <img src="~/uploads/@a.imagePath" class="img-fluid" alt="">
+                                <div class="member-content">
+                                    <h4>@a.name</h4>
+                                    <span>@a.subject</span>
+                                    <p>
+                                        @a.descirption
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                        coCount++;
+                    }
+                    else
+                    {
+                        break;
+                    }
 
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <img src="~/assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                        <div class="member-content">
-                            <h4>Sarah Jhinson</h4>
-                            <span>Marketing</span>
-                            <p>
-                                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-                            </p>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <img src="~/assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
-                        <div class="member-content">
-                            <h4>William Anderson</h4>
-                            <span>Content</span>
-                            <p>
-                                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-                            </p>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                }
 
             </div>
 

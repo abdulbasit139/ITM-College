@@ -445,6 +445,10 @@
       "PackagePath": "staticwebassets\\css\\.DS_Store"
     },
     {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\css\\faculty.css",
+      "PackagePath": "staticwebassets\\css\\faculty.css"
+    },
+    {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\css\\maps\\style.css.map",
       "PackagePath": "staticwebassets\\css\\maps\\style.css.map"
     },
@@ -1157,6 +1161,10 @@
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\15c21b7a-1df2-449e-929f-fb03b1425de8_trainer-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\15c21b7a-1df2-449e-929f-fb03b1425de8_trainer-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\3fe3eba0-4233-4599-86b6-8757ddf40aae_636943117732554709255.jpeg",
       "PackagePath": "staticwebassets\\uploads\\3fe3eba0-4233-4599-86b6-8757ddf40aae_636943117732554709255.jpeg"
     },
@@ -1165,12 +1173,24 @@
       "PackagePath": "staticwebassets\\uploads\\541be65c-5a34-4860-bf82-292adc03eb6a_63761086367073090673.jpg"
     },
     {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\5dd9900f-5b6f-4d3b-a492-e9cb5a377657_trainer-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5dd9900f-5b6f-4d3b-a492-e9cb5a377657_trainer-3.jpg"
+    },
+    {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\73a7124a-07db-4bc8-a014-b992d78f2a65_Computer Science Course.jpg",
       "PackagePath": "staticwebassets\\uploads\\73a7124a-07db-4bc8-a014-b992d78f2a65_Computer Science Course.jpg"
     },
     {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\75df7f8f-a23c-4134-8785-bdee26b5d12a_WhatsApp Image 2023-06-17 at 10.29.32.jpg",
+      "PackagePath": "staticwebassets\\uploads\\75df7f8f-a23c-4134-8785-bdee26b5d12a_WhatsApp Image 2023-06-17 at 10.29.32.jpg"
+    },
+    {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\86be3a9e-1dfc-4f55-9153-2971be1e7f86_program-bachelor-of-science-in-computer-science-1920x1080-1-750x430.jpg",
       "PackagePath": "staticwebassets\\uploads\\86be3a9e-1dfc-4f55-9153-2971be1e7f86_program-bachelor-of-science-in-computer-science-1920x1080-1-750x430.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\9790a16b-5854-4a4e-9b54-91aa9541a993_trainer-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9790a16b-5854-4a4e-9b54-91aa9541a993_trainer-2.jpg"
     },
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\abac95e8-e6de-4a42-9eb3-4189f0ea5c3c_636943117732554709255.jpeg",
@@ -1183,6 +1203,10 @@
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\e374f630-503b-49c2-9570-3a22df48556a_Computer Science Course.jpg",
       "PackagePath": "staticwebassets\\uploads\\e374f630-503b-49c2-9570-3a22df48556a_Computer Science Course.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\uploads\\fc1902fa-1e48-4bfb-ad78-1073492512d6_trainer-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fc1902fa-1e48-4bfb-ad78-1073492512d6_trainer-1.jpg"
     },
     {
       "Id": "C:\\Users\\Abdul Basit\\source\\repos\\College\\College\\wwwroot\\vendors\\.DS_Store",

@@ -23,9 +23,12 @@
     <link href="@Url.Content("~/assets/vendor/boxicons/css/boxicons.min.css")" rel="stylesheet">
     <link href="@Url.Content("~/assets/vendor/remixicon/remixicon.css")" rel="stylesheet">
     <link href="@Url.Content("~/assets/vendor/swiper/swiper-bundle.min.css")" rel="stylesheet">
+    
 
     <!-- Template Main CSS File -->
     <link href="@Url.Content("~/assets/css/style.css")" rel="stylesheet">
+    <link href="@Url.Content("~/css/faculty.css")" rel="stylesheet">
+
 
 
     <!-- =======================================================
@@ -59,7 +62,8 @@
                         <li><a href="@Url.Action("Admission")">ADMISSION</a></li>
                     }
                     
-                    <li><a href="trainers.cshtml">TRAINERS</a></li>
+                    <li><a href="@Url.Action("Teachers")">TRAINERS</a></li>
+                    <li><a href="@Url.Action("Faculty")">Faculty</a></li>
                     <li><a href="@Url.Action("Contact")">CONTACT US</a></li>
                     
                     @if (ViewBag.StudentName != null)

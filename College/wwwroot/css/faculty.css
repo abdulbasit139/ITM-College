@@ -1,0 +1,57 @@
+﻿
+/*--------------------------------------------------------------
+# Trainers
+--------------------------------------------------------------*/
+.trainers .member {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #eef0ef;
+}
+
+    .trainers .member img {
+        margin: -1px -1px 0px -1px;
+    }
+
+    .trainers .member .member-content {
+        padding: 30px 20px 30px 20px;
+        background: black;
+        color: white;
+    }
+
+    .trainers .member h4 {
+        font-weight: 700;
+        margin-bottom: 2px;
+        font-size: 18px;
+    }
+
+    .trainers .member span {
+        font-style: italic;
+        display: block;
+        font-size: 13px;
+    }
+
+    .trainers .member p {
+        padding-top: 10px;
+        font-size: 14px;
+        font-style: italic;
+        color: white;
+    }
+
+    .trainers .member .social {
+        margin-top: 15px;
+    }
+
+        .trainers .member .social a {
+            color: white;
+            transition: 0.3s;
+        }
+
+            .trainers .member .social a:hover {
+                color: white;
+            }
+
+        .trainers .member .social i {
+            font-size: 18px;
+            margin: 0 2px;
+        }
