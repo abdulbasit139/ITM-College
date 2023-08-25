@@ -4624,12 +4624,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\scss\_vertical-wrapper.scss))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6547d6e0-9fa0-4970-9baa-cd0932dbcf9f_IMG-20230514-WA0003.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3fe3eba0-4233-4599-86b6-8757ddf40aae_636943117732554709255.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>College</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/College</BasePath>
-      <RelativePath>uploads/6547d6e0-9fa0-4970-9baa-cd0932dbcf9f_IMG-20230514-WA0003.jpg</RelativePath>
+      <RelativePath>uploads/3fe3eba0-4233-4599-86b6-8757ddf40aae_636943117732554709255.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -4638,14 +4638,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6547d6e0-9fa0-4970-9baa-cd0932dbcf9f_IMG-20230514-WA0003.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3fe3eba0-4233-4599-86b6-8757ddf40aae_636943117732554709255.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\70d52c3a-cca8-4c2c-8c80-c079db6b09f3_IMG-20230514-WA0002.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\541be65c-5a34-4860-bf82-292adc03eb6a_63761086367073090673.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>College</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/College</BasePath>
-      <RelativePath>uploads/70d52c3a-cca8-4c2c-8c80-c079db6b09f3_IMG-20230514-WA0002.jpg</RelativePath>
+      <RelativePath>uploads/541be65c-5a34-4860-bf82-292adc03eb6a_63761086367073090673.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -4654,14 +4654,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\70d52c3a-cca8-4c2c-8c80-c079db6b09f3_IMG-20230514-WA0002.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\541be65c-5a34-4860-bf82-292adc03eb6a_63761086367073090673.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\7cfb0965-3d7e-4b91-850e-901c4fb54bdf_WhatsApp Image 2023-06-17 at 10.29.32.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\73a7124a-07db-4bc8-a014-b992d78f2a65_Computer Science Course.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>College</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/College</BasePath>
-      <RelativePath>uploads/7cfb0965-3d7e-4b91-850e-901c4fb54bdf_WhatsApp Image 2023-06-17 at 10.29.32.jpg</RelativePath>
+      <RelativePath>uploads/73a7124a-07db-4bc8-a014-b992d78f2a65_Computer Science Course.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -4670,7 +4670,71 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\7cfb0965-3d7e-4b91-850e-901c4fb54bdf_WhatsApp Image 2023-06-17 at 10.29.32.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\73a7124a-07db-4bc8-a014-b992d78f2a65_Computer Science Course.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\86be3a9e-1dfc-4f55-9153-2971be1e7f86_program-bachelor-of-science-in-computer-science-1920x1080-1-750x430.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>College</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/College</BasePath>
+      <RelativePath>uploads/86be3a9e-1dfc-4f55-9153-2971be1e7f86_program-bachelor-of-science-in-computer-science-1920x1080-1-750x430.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\86be3a9e-1dfc-4f55-9153-2971be1e7f86_program-bachelor-of-science-in-computer-science-1920x1080-1-750x430.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\abac95e8-e6de-4a42-9eb3-4189f0ea5c3c_636943117732554709255.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>College</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/College</BasePath>
+      <RelativePath>uploads/abac95e8-e6de-4a42-9eb3-4189f0ea5c3c_636943117732554709255.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\abac95e8-e6de-4a42-9eb3-4189f0ea5c3c_636943117732554709255.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b8a57898-1dbd-4056-86f2-b0a07167b2f7_63761086367073090673.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>College</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/College</BasePath>
+      <RelativePath>uploads/b8a57898-1dbd-4056-86f2-b0a07167b2f7_63761086367073090673.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b8a57898-1dbd-4056-86f2-b0a07167b2f7_63761086367073090673.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e374f630-503b-49c2-9570-3a22df48556a_Computer Science Course.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>College</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/College</BasePath>
+      <RelativePath>uploads/e374f630-503b-49c2-9570-3a22df48556a_Computer Science Course.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e374f630-503b-49c2-9570-3a22df48556a_Computer Science Course.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vendors\.DS_Store))">
       <SourceType>Package</SourceType>

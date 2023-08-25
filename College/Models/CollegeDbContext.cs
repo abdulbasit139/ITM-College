@@ -12,6 +12,7 @@ namespace College.Models
 
         public DbSet<admin> admins { get; set; }
         public DbSet<Feedback> feedback { get; set; }
+        public DbSet<Courses> courses { get; set; }
 
     }
 }

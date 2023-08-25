@@ -18,9 +18,21 @@ namespace College.Controllers
                 ViewBag.StudentName = HttpContext.Session.GetString("StudentName");
                 ViewBag.StudentEmail = HttpContext.Session.GetString("StudentEmail");
                 ViewBag.StudentId = HttpContext.Session.GetString("StudentId");
+                var courses = db.courses.Count();
+                ViewBag.courses = courses;
+                var data = db.courses.ToList();
+                ViewBag.data = data;
+                var std = db.CollegeRegistration.Count(a => a.status == "Approved");
+                ViewBag.std = std;
                 return View();
             } else
             {
+                var courses = db.courses.Count();
+                ViewBag.courses = courses; 
+                var std = db.CollegeRegistration.Count(a => a.status == "Approved");
+                ViewBag.std = std;
+                var data = db.courses.ToList();
+                ViewBag.data = data;
                 return View();
             }
         }
@@ -208,6 +220,13 @@ namespace College.Controllers
             db.feedback.Add(fed);
             db.SaveChanges();
             return RedirectToAction("Contact", "User");
+        }
+
+        public IActionResult Courses()
+        {
+            var data = db.courses.ToList();
+            ViewBag.data = data;
+            return View();
         }
     }
 }
